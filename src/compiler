@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -o knmg knmg.c
+mv knmg build
