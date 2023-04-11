@@ -3,12 +3,16 @@ This is a command-line tool written in C that helps to manage and switch between
 
 # Usage
 ```
-./knmg <command> [kernel_version]
+Usage: ./knmg <command> [kernel_version]
+Commands:
+  list                     - List available kernel versions
+  install [kernel_version] - Install a new kernel version
+  switch  [kernel_version] - Switch to a different kernel version
 ```
-The following commands are available:
-- `list` - Lists all available kernel versions, including currently running kernel version
-- `install` - Installs a new kernel version. Requires a kernel version name as an argument
-- `switch` - Switches to a different installed kernel version. Requires a kernel version name as an argument.
+## Examples:
+- `sudo ./knmg list` - lists all available kernels, including the one that is currently used 
+- `sudo ./knmg install 5.15.0-56-generic` - installs `5.15.0-56-generic` kernel version
+- `sudo ./knmg switch 5.15.0-56-generic` - switches current kernel version to `5.15.0-56-generic`
 
 # Limitations
 - The tool only works with superuser privileges (`sudo`)
