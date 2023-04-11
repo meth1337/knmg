@@ -1,4 +1,9 @@
 # knmg (kernel manager)
+<div>
+  <img src="https://img.shields.io/badge/license-unlicense-green">
+  <img src="https://img.shields.io/github/languages/code-size/meth1337/knmg">
+  <img src="https://img.shields.io/badge/language-C-lightgrey">
+</div>
 This is a command-line tool written in C that helps to manage and switch between different installed kernel versions on a Linux system. The tool has been tested on Ubuntu and Mint distributions.
 
 # Download
