@@ -7,7 +7,7 @@
 This is a command-line tool written in C that helps to manage and switch between different installed kernel versions on a Linux system. The tool has been tested on Ubuntu and Mint distributions.
 
 # Download
-**You can download the latest stable build [here](https://github.com/meth1337/knmg/releases/latest)**.
+**You can download the latest stable build [here](https://github.com/meth1337/knmg/releases/latest)**. (filename: `knmg`)
 
 # Usage
 ```
