@@ -1,4 +1,4 @@
-# knmg (kernel manager)
+# knmg (kernel versions manager)
 <div>
   <img src="https://img.shields.io/badge/license-unlicense-green">
   <img src="https://img.shields.io/github/languages/code-size/meth1337/knmg">
